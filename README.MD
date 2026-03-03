@@ -25,7 +25,7 @@
   - src/App.jsx
   - src/components/...
   - package.json
-- **inference_cli.py** — консольный инференс одного фото
+- **test.py** — консольный инференс одного фото
 - **README.md** — описание проекта
 - **requirements.txt** — зависимости бэкенда
 - **.gitignore** — игнорируемые файлы
