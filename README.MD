@@ -11,22 +11,14 @@
 - Командная строка для инференса одного изображения
 ## Структура проекта
 
-- **app/** — FastAPI бэкенд + YOLO инференс
-  - main.py
-  - model.py
-  - utils.py
-  - config.py
-- **bot/** — Telegram-бот (aiogram)
-  - bot.py
-  - handlers.py
-- **frontend/** — React + Vite веб-приложение
-  - src/App.jsx
-  - src/components/...
-  - package.json
-- **inference_cli.py** — консольный инференс одного фото
-- **README.md** — описание проекта
-- **requirements.txt** — зависимости бэкенда
-- **.gitignore** — игнорируемые файлы
+PlantSeg
+├── app/                # FastAPI бэкенд + YOLO инференс
+├── bot/                # Telegram-бот (aiogram)
+├── frontend/           # React + Vite веб-приложение
+├── train/              # скрипты обучения (если есть)
+├── inference_cli.py    # консольный инференс одного фото
+├── README.md
+└── requirements.txt
 
 ## Ссылка на проект в Roboflow
 
@@ -46,7 +38,7 @@ https://app.roboflow.com/mouses-workspace/pop-6hyms/browse?queryText=&pageSize=5
    ```bash
    git clone https://github.com/Mouse-ai/Plant_Seg.git
    cd Plant_Seg
-2.Установи зависимости backend
+2. Установи зависимости backend
     ```Bash
     pip install -r requirements.txt   # создай requirements.txt, если ещё нет
     Пример минимального requirements.txt:
@@ -60,19 +52,19 @@ https://app.roboflow.com/mouses-workspace/pop-6hyms/browse?queryText=&pageSize=5
     python-dotenv
     httpx
     aiogram
-3.Установи зависимости фронтенда
+3. Установи зависимости фронтенда
     ```Bash
     cd frontend
     npm install
-4.Запусти backend
+4. Запусти backend
     ```Bash
     cd app
     python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-5.Запусти фронтенд (в отдельном терминале)
+5. Запусти фронтенд (в отдельном терминале)
     ```Bash
     cd frontend
     npm run dev
-6.Запусти Telegram-бота (в отдельном терминале)
+6. Запусти Telegram-бота (в отдельном терминале)
     ```Bash
     cd bot
     python bot.py
