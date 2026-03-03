@@ -9,15 +9,24 @@
 - Веб-приложение (React + Vite)
 - Telegram-бот
 - Командная строка для инференса одного изображения
-
 ## Структура проекта
-PlantSeg/
-├── app/                # FastAPI бэкенд + YOLO инференс
-├── bot/                # Telegram-бот (aiogram)
-├── plant-frontend/           # React + Vite веб-приложение
-├── train/              # скрипты обучения (если есть)
-├── test.py    # консольный инференс одного фото
-└── README.md
+
+- **app/** — FastAPI бэкенд + YOLO инференс
+  - main.py
+  - model.py
+  - utils.py
+  - config.py
+- **bot/** — Telegram-бот (aiogram)
+  - bot.py
+  - handlers.py
+- **frontend/** — React + Vite веб-приложение
+  - src/App.jsx
+  - src/components/...
+  - package.json
+- **inference_cli.py** — консольный инференс одного фото
+- **README.md** — описание проекта
+- **requirements.txt** — зависимости бэкенда
+- **.gitignore** — игнорируемые файлы
 
 ## Ссылка на проект в Roboflow
 
