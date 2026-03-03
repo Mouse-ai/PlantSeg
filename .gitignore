@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js / Vite / React
+node_modules/
+dist/
+build/
+*.log
+
+# Модели и большие файлы
+*.pt
+*.onnx
+*.weights
+*.ckpt
+
+# Временные файлы
+temp/
+uploads/
+*.jpg
+*.png
+*.jpeg
+
+# macOS / Windows
+.DS_Store
+Thumbs.db

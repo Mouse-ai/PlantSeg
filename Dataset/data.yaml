@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['leaf', 'root', 'steb']
+
+roboflow:
+  workspace: mouses-workspace
+  project: ai-em0my
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mouses-workspace/ai-em0my/dataset/2
