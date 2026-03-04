@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # 1. Укажите путь к вашей лучшей модели и фотографии для анализа
-model_path = r"C:\project\чтозахуйня\app\best.pt"
+model_path = r"C:\project\app\best.pt"
 image_path = r"C:\Users\Алексей\Downloads\arugula_20260219163107365.jpg"
 
 
