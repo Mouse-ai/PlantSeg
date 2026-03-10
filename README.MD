@@ -50,7 +50,7 @@ https://app.roboflow.com/mouses-workspace/pop-6hyms/browse?queryText=&pageSize=5
    cd Plant_Seg
 2. Установи зависимости backend
     ```Bash
-    pip install -r requirements.txt   # создай requirements.txt, если ещё нет
+    pip install -r requirements.txt
     Пример минимального requirements.txt:
     fastapi
     uvicorn
