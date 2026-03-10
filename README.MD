@@ -79,7 +79,7 @@ https://app.roboflow.com/mouses-workspace/pop-6hyms/browse?queryText=&pageSize=5
     cd bot
     python bot.py
 ______________________________________________________
-Командная строка — инференс одного изображения
+ Командная строка — инференс одного изображения
     ```Bash
     python test.py path/to/image.jpg
 ______________________________________________________
